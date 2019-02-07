@@ -18,6 +18,9 @@ defmodule CORS.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:raxx, "~> 0.18.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
+    ]
   end
 end
