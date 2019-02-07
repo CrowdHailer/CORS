@@ -1,0 +1,2 @@
+defmodule CORS do
+end
